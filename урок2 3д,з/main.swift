@@ -1,0 +1,10 @@
+let bmw : Technique =  Bmw(name: "BMW i5")
+bmw.displayPostive(sale: "1000$", age: 2020)
+bmw.displayNegative(condition: "6 out 10", scrathes:"has scrathes", chipped: "chipped")
+let ferrari : Technique = Ferrari(name: "Ferrari Hurricane")
+ferrari.displayPostive(sale: "40000$", age: 2016)
+ferrari.displayNegative(condition: "3 out of 10", scrathes: "has a lot of scrathes", chipped: "double chipped")
+let mers : Technique = Mercedes(name: " Mercedes Maybach S class")
+mers.displayPostive(sale: "17000$",age: 2022)
+mers.displayNegative(condition: "5 out of 7", scrathes: "has a big scrathes", chipped: "once chipped")
+
